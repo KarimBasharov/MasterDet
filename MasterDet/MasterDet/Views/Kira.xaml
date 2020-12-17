@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.Kira">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image Source="Resources/drawable/kira2.jpg"></Image>
+            <Label Text="Кира Йошикаге" Font="20" TextColor="Blue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Кира - серийный убийца, эгоцентрик, психопат, имеет обсессивно-компульсивные склонности и хенд-фетишизм. Кира жаждет мирной и спокойной жизни, в безопасности от любых забот, и не желает, чтобы ее прерывали. Всякий раз, когда эта жизнь кажется гарантированной, Кира принимает веселое и уверенное поведение. Несмотря на то, что он очень умен и обладает многими талантами, это стремление проявляется в его неприязни к тому, чтобы быть во всем первым, и Джотаро теоретизирует из его многочисленных трофеев, что он даже старался не превышать третье место в любом соревновании, чтобы не выделяться среди других. С юности Кира старается не выделяться, вести здоровый образ жизни и придерживаться строгого режима." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

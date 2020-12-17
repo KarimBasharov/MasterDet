@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.SkillsPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image Source="Resources/drawable/Jota2.jpg"></Image>
+            <Label Text="Куджо Джотаро" Font="20" TextColor="Purple" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Джотаро представлен как грубый хулиган, но у него нежное сердце и он верен тем, кого любит. Он очень проницателен, интеллигентен и сообразителен, сохраняя при этом неизменно спокойное, слегка нейтральное или бескорыстное отношение. Самая заметная черта Джотаро - его внешне отчужденная натура. Он тихий человек, часто выражающий себя короткими фразами. Его биография объясняет, что он думает, что любой может выразить свои эмоции, просто взглянув на него, и, вероятно, думает о дальнейших усилиях изобразить то, что он считает пустой тратой времени, заставляя других склоняться к тому, чтобы воспринимать Джотаро как черствого. В связи с этим, Джотаро - чрезвычайно крутой человек, способный сохранять самообладание даже в самых тяжелых ситуациях." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

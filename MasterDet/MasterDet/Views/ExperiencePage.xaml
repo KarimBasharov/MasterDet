@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.ExperiencePage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image Source="Resources/drawable/Jose2.jpg"></Image>
+            <Label Text="Джозеф Джостар" Font="20" TextColor="Red" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Каждый член этой семьи с рождения обладает родинкой в виде звезды, означающая великую судьбу для её носителя. Как представитель семьи Джостаров, Джозеф обладает ярким темпераментом и некоторыми уникальными чертами: Мастер троллинга, Ловкость, Навыки маскировки, Искусство Войны Сунь Цзы, Инстинкт самосохранения." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

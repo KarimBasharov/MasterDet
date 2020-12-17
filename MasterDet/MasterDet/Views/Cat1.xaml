@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.Cat1">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image x:Name="Giorno" Source="Resources/drawable/gio2.jpg"></Image>
+            <Label Text="Джорно Джованна" Font="20" TextColor="Blue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="У Джорно было несчастливое и одинокое детство из-за травли и насилия со стороны отчима. Поэтому первое время он был холодным и безразличным к другим и считал себя мерзавцем из-за того, как к нему относились люди. Окружающие думали, что он станет плохим человеком, когда вырастет. Но однажды, он спас раненого гангстера, после чего подружился с ним. В благодарность за это, тот человек начал защищать Джорно от тех, кто издевался над ним, и тот понял, что он может доверять людям. С тех пор Джорно стал более уверенным и заботливым человеком. Главной отличительной чертой Джорно является его решимость (覚悟 kakugo), то есть способность принимать важные решения и доводить их до конца, невзирая на боль, печаль и трагедию. На протяжении Vento Aureo, решимость Джорно оказывается настолько сильной, что в пылу битвы он готов быть раненым, если это приведёт к преимуществу. Как амбициозный человек, он охотно использует любую возможность, чтобы стать Ганг-старом." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

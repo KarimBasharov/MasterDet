@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.Speed">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image Source="Resources/drawable/speed2.jpg"></Image>
+            <Label Text="Спидвагон" Font="20" TextColor="Blue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Несмотря на свою деятельность в качестве хулигана, Спидвагон - праведный человек. Благодаря своей способности чувствовать личность людей, он узнал благородный дух Джонатана во время событий на Огр-Стрит и сопровождает его в его дальнейшей поездке, чтобы победить Дио, чей фасад как прикрытие для его естественно злого поведения был легко отвергнут Спидвагоном. Спидвагон невероятно лоялен к своим друзьям, дружба с Джонатаном была отчасти благодаря джентльмену, который был добр к своим партнерам по преступлению." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

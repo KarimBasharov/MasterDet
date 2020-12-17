@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.Polnareff">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image Source="Resources/drawable/pol2.jpg"></Image>
+            <Label Text="Жан-Пьер Польнарефф" Font="20" TextColor="Blue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Наиболее характерной чертой Польнареффа является его честь. В его первом появлении он нарочно ставит себя в тупик, объясняя свои способности и сражаясь со своим противником Абдулом в местности, более подходящей для битвы. Честь Польнареффа такова, что даже под контролем Дио он отказывается сделать что-то столь же бесчестное, как нападение на кого-то из засады. Приняв рыцарское мышление, Польнарефф не хочет убегать от боя или использовать нечестную тактику, хотя его можно убедить, если он сражается с противником, которого он глубоко ненавидит, как Ванилла Айс или Дио." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

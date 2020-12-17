@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.AchievemnetPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="10">
+            <Image Source="Resources/drawable/Josk2.jpg"></Image>
+            <Label Text="Хигашиката Джоске" Font="20" TextColor="Pink" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Джоске - смекалистый, уверенный в себе и отважный подросток. Дружелюбный и преданный, его открытый характер помогает ему заводить друзей на протяжении всей истории. Основная черта Джоске - его общая доброта, что отражено в его Стенде Crazy Diamond, который восстанавливает и лечит... Когда он был ребёнком, случайный прохожий по доброте помог спасти лихорадочного Джоске. Джоске подсознательно отразил в себе эту доброту. Даже после того, как стало известно, что он внебрачный сын Джозефа, Джоске думал в первую очередь о проблемах, которые он причинил Джостарам, и игнорировал любые претензии на наследство, только желая заверить своего биологического отца, что с ним всё в порядке. Приятный по натуре, Джоске не так склонен к насилию, как другие ДжоДжо, и даже может спокойно терпеть издевательства со стороны старшеклассников." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

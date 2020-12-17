@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.Dio">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image Source="Resources/drawable/dio2.jpg"></Image>
+            <Label Text="Дио Брандо" Font="20" TextColor="Blue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Довольно жесток, властолюбив, склонен манипулировать другими, и ему не хватает совести и сочувствия. Самыми узнаваемыми характеристиками Дио являются его безграничные амбиции и любовь к власти. Оскорбленный отцом и проживший в самых ужасных условиях жизни, Дио поставил перед собой цель стать самым богатым, а затем и самым могущественным существом на Земле. Чтобы сделать это, Дио использовал все, что мог, для достижения своих целей, не обращая внимания на какую-либо мораль, которая ограничивала бы диапазон действий, доступных ему. Используя манипуляцию, соблазнение или простое насилие, Дио постоянно стремился стать все более и более могущественным." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

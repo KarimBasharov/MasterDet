@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MasterDet.Views.Kakein">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" Margin="20">
+            <Image Source="Resources/drawable/kakein2.jpg"></Image>
+            <Label Text="Нориаки Какёин" Font="20" TextColor="Blue" HorizontalTextAlignment="Center"></Label>
+            <Label Text="Он раскрывает себя как праведного, хотя и грубого человека. Какёин безжалостен к своим врагам, но предан своим союзникам. Его причина присоединения к команде Джостара заключается в том, что они оба борются со злом, поскольку он отражает собственные объяснения Джотаро о спасении его жизни, и, конечно, чувство долга перед Джотаро за спасение его жизни. Таким образом, Какёин - смелый человек, охотно участвующий в опасном путешествии в Египет, и он также может сохранять свои нервы даже в самых тяжелых ситуациях, таких как битва с The World." TextColor="Black" HorizontalTextAlignment="Center"></Label>
+            <Button x:Name="btn" Text="Подробнее" BackgroundColor="#ffcccc" Clicked="btn_Clicked">
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
